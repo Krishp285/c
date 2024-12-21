@@ -1,0 +1,62 @@
+#include<stdio.h>
+#include<conio.h>
+#define ROW 3
+#define COL 3
+void main (){
+	int a[ROW][COL],b[ROW][COL],c[ROW][COL]={0};
+	int i,j,k;
+	clrscr();
+	printf("\nenter the value of 1ST matrix");
+	for(i=0;i<ROW;i++){
+
+	for(j=0;j<COL;j++){
+		printf("\nenter the value of a[%d][%d]",i,j);
+		scanf("%d",&a[i][j]);
+			  }
+			  }
+	for(i=0;i<ROW;i++){
+	for(j=0;j<COL;j++){
+		printf("%d\t",a[i][j]);
+			  }
+			  printf("\n");
+			  }
+
+
+
+	printf("\nenter the value of 2ND matrix");
+	for(i=0;i<ROW;i++){
+	for(j=0;j<COL;j++){
+		printf("\nenter the value of b[%d][%d]",i,j);
+		scanf("%d",&b[i][j]);
+			  }
+			  }
+
+	for(i=0;i<ROW;i++){
+	for(j=0;j<COL;j++){
+		printf("%d\t",b[i][j]);
+			  }
+			  printf("\n");
+			  }
+			  printf("\nthe answer of matrix multiplication is\n ");
+	for(i=0;i<ROW;i++)
+	{
+	for(j=0;j<COL;j++)
+		{
+	for(k=0;k<ROW;k++)
+			{
+			c[i][j] = c[i][j] + (a[i][k]*b[k][j]);
+			}
+		}
+	}
+	for(i=0;i<ROW;i++)
+	{
+	for(j=0;j<COL;j++)
+			  {
+			  printf("%d\t",c[i][j]);
+			  }
+	    printf("\n");
+	}
+			  getch();
+			  }
+
+

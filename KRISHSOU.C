@@ -1,0 +1,100 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	char FIRSTNAME,MIDDLENAME,LASTNAME,EMAIL,CONTACTNO,CITY,ADDRESS,ZIPCODE,DISTRICT,STATE,COUNTRY;
+	clrscr();
+	gotoxy(20,2);
+	textcolor(YELLOW);
+	cprintf("FIRST NAME - ");
+	textcolor(WHITE);
+	scanf("%c",&FIRSTNAME);
+	sound(1000);
+	delay(200);
+	nosound();
+	gotoxy(20,4);
+	textcolor(YELLOW);
+	cprintf("MIDDLE NAME - ");
+	textcolor(WHITE);
+	scanf("%c",&MIDDLENAME);
+	sound(1000);
+	delay(300);
+	nosound();
+	gotoxy(20,6);
+	textcolor(YELLOW);
+	cprintf("LAST NAME - ");
+	textcolor(WHITE);
+	scanf("%c",&LASTNAME);
+	sound(1000);
+	delay(400);
+	nosound();
+       gotoxy(20,8);
+       textcolor(YELLOW);
+       cprintf("E MAIL - ");
+       textcolor(WHITE);
+	scanf("%c",& EMAIL);
+	sound(1000);
+	delay(500);
+	nosound();
+       gotoxy(20,10);
+       textcolor(YELLOW);
+       cprintf("CONTACT NO - ");
+       textcolor(WHITE);
+	scanf("%d",&CONTACTNO);
+	sound(1000);
+	delay(600);
+	nosound();
+       gotoxy(20,12);
+       textcolor(YELLOW);
+       cprintf("CITY - ");
+       textcolor(WHITE);
+	scanf(%c,&CITY);
+	sound(1000);
+	delay(700);
+	nosound();
+       gotoxy(20,14);
+       textcolor(YELLOW);
+       cprintf("ADDRESS - ");
+       textcolor(WHITE);
+	scanf(%c,&ADDRESS);
+	sound(1000);
+	delay(800);
+	nosound();
+       gotoxy(20,16);
+       textcolor(YELLOW);
+       cprintf("ZIP CODE - ");
+       textcolor(WHITE);
+	scanf(%d,&ZIPCODE);
+	sound(1000);
+	delay(900);
+	nosound();
+       gotoxy(20,18);
+       textcolor(YELLOW);
+       cprintf("DISTRICT - ");
+	textcolor(WHITE);
+	scanf(%c,&DISTRICT);
+	sound(1000);
+	delay(1000);
+	nosound();
+       gotoxy(20,20);
+       textcolor(YELLOW);
+       cprintf("STATE - ");
+       textcolor(WHITE);
+	scanf(%c,&STATE);
+	sound(1000);
+	delay(1000);
+	nosound();
+       gotoxy(20,22);
+       textcolor(YELLOW);
+       cprintf("COUNTRY - ");
+       textcolor(WHITE);
+       cprintf("INDIA");
+       gotoxy(20,24);
+       textcolor(RED);
+       cprintf(" TERMS AND CONDITIONS APPLIED ");
+
+
+
+
+
+       getch();
+	}
